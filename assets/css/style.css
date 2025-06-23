@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+#reaction-time {
+  font-size: 1.5em;
+  color: #333;
+  margin-top: 20px;
+}
